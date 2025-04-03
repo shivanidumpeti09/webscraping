@@ -1,0 +1,7 @@
+1. Open vs code create project directory
+2. Run "python -m venv venv" in terminal
+3. Run venv\Scripts\activate
+4. Run "pip install Flask pip install Flask Flask-WTF linkedin_scraper email_validator"
+5. Create app.py and forms.py in the project directory and paste the codes
+6. Create a directory "templates" in project directory and copy the HTML Files
+7. Run the app in terminal by "python app.py"

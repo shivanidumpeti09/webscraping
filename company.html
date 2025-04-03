@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Company Name</title>
+</head>
+<body>
+    <h1>Enter Company Name</h1>
+    <form method="POST" action="{{ url_for('company') }}">
+        <p>
+            <label for="company_name">Company Name:</label><br>
+            <input type="text" id="company_name" name="company_name" required>
+        </p>
+        <p>
+            <label for="limit">Number of Pages to Scroll:</label><br>
+            <input type="number" id="limit" name="limit" value="5" required>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+</body>
+</html>
